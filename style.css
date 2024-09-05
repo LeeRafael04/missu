@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+  background-size: 1000px;
+  background-position: center center;
+}
+
+img {
+  max-height: 200px;
+  /* width: 100%; */
+  user-select: none;
+}
+
+.finalmessage {
+  display: flex;
+  gap: 0;
+}
+
+p {
+  font-family: "Zeyada";
+  font-size: 60px;
+  color: rgb(0, 0, 100);
+  opacity: o.75;
+  user-select: none;
+}
+
+.paper {
+  position: absolute;
+  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+}
